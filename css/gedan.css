@@ -1,0 +1,52 @@
+			*{margin: 0;padding: 0;}
+			html{font-size: 62.5%;}	
+			body{font-size: 1.6rem;background:url(../images/12/bb.jpg) right top;
+				background-attachment: fixed;}
+			.aa img{padding: 10px 0 0 10px;}
+			h1{display: none;}				
+			ul{list-style: none;text-align: center;}
+			a{text-decoration: none;}
+			.aside,.article,.section{float: left;}
+			.main{width: 80%;height:97.5rem;margin: auto;clear: both;background: url(../images/12/a.jpg) no-repeat right;}
+			.aside{width:60%;height:30rem;background:rgba(172,172,172,0.7);}							
+			.article{width:40%;height: 30rem;background:rgba(172,172,172,0.6);
+			position: relative;
+			}
+			.ar1{position: absolute;right: 10px;top: 10px;}
+			.section{width:100%;background: rgba(255,255,255,0.8);}
+			.intc{font-size: 1.4rem;margin:10%;}
+			.intc img{width: 50%;}
+			.aside img{width: 40%;max-width: 25rem;min-width: 200px;border:1px solid whitesmoke;outline:2px solid white;margin:30px 10%;}
+			img,figcaption{float: left;}
+			figcaption{float: left;line-height:3rem;margin-top: 10%;}
+			h2{font-size: 2.5rem;}												
+			.s-nav{width: 50%;margin: auto;overflow: hidden;white-space: nowrap;}
+			.s-nav li{float: left;width:24%;height:7rem;line-height: 7rem;}
+			.s-nav li:nth-child(1){border-bottom: 2px solid #0066CC;color: #0066CC;}
+			.s-nav a{display: block;color: black;}
+			.s-nav a:hover{color:#0066cc}
+			
+			.song-ol li{clear: both;height:5rem;border-top:1px solid rgba(0,0,0,0.1);text-indent: 2rem;}
+			.song-ol li a{color:black;display: block;height: 5rem;}
+			.song-ol li a:hover{background:rgba(100,100,100,0.5);color:#0066cc}			
+			.song-ol {clear: both;list-style: none;}
+			.song-ol div{float: left;line-height: 5rem;}				
+			.song-ol div:nth-child(1){width:60%;}
+			.song-ol div:nth-child(2){width: 20%;overflow: hidden;white-space: nowrap;}
+			.song-ol div:nth-child(3){width: 15%;margin-left: 5%;}
+			
+			.last{border-bottom:1px solid rgba(0,0,0,0.1)}
+			.npp{width:30rem;height: 2rem; margin:1rem auto;}
+			.npp a:nth-child(1){color: #0066CC;}
+			.npp a{display: block;float:left;margin-left: 2rem;color: black;}
+			.npp a:hover{color: #0066CC;}
+			.footer{clear: both;height: 25rem;background:rgb(51,51,51);padding:0 20% ;text-align: center;color: #bcbcbc;}
+			.footer div{float: left;width: 33.3%;text-align: center;margin-top: 2rem;}
+			.footer h4{margin: 2rem;font-size: 2.5rem;font-weight: 700;}
+			.footer ul{list-style: none;}
+			.footer li{height: 4rem;font-size: 1.8rem;}
+			.footer li :hover{color: #0066CC;}
+			.footer a{color: #bcbcbc;text-decoration: none;}
+			@media only screen and (max-width:1024px ) {
+				.main{width: 100%;}
+			}
